@@ -1,0 +1,22 @@
+b0d9368 (HEAD -> master, origin/master) HEAD@{0}: commit (merge): logs part1 file adding
+20c37c4 (feature5, develop) HEAD@{1}: merge develop: Fast-forward
+0f811ee HEAD@{2}: checkout: moving from develop to master
+20c37c4 (feature5, develop) HEAD@{3}: merge feature5: Fast-forward
+0f811ee HEAD@{4}: checkout: moving from feature5 to develop
+20c37c4 (feature5, develop) HEAD@{5}: rebase (finish): returning to refs/heads/feature5
+20c37c4 (feature5, develop) HEAD@{6}: rebase (squash): first commit change
+a7b0ee8 HEAD@{7}: rebase (start): checkout HEAD~2
+c316836 HEAD@{8}: rebase (continue) (finish): returning to refs/heads/feature5
+c316836 HEAD@{9}: commit (amend): changes to the second file
+944280f HEAD@{10}: rebase: fast-forward
+a7b0ee8 HEAD@{11}: rebase (start): checkout HEAD~1
+944280f HEAD@{12}: rebase (abort): updating HEAD
+944280f HEAD@{13}: rebase (abort): updating HEAD
+944280f HEAD@{14}: commit: changes to the second file
+a7b0ee8 HEAD@{15}: commit: changes to the first file
+f216f06 HEAD@{16}: commit: add second file
+fdbd69b HEAD@{17}: commit: add first file
+0f811ee HEAD@{18}: checkout: moving from master to feature5
+0f811ee HEAD@{19}: merge develop: Fast-forward
+e255029 HEAD@{20}: checkout: moving from develop to master
+0f811ee HEAD@{21}: rebase (finish): returning to refs/heads/develop
