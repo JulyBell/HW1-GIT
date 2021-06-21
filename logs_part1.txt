@@ -1,0 +1,2703 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red159\green160\blue28;\red46\green174\blue187;\red47\green180\blue29;
+\red180\green36\blue25;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c68468\c68012\c14208;\cssrgb\c20196\c73240\c78250;\cssrgb\c20238\c73898\c14947;
+\cssrgb\c76409\c21698\c12524;\csgray\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develo:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develo:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develo:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develo:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+\cf2 c3f928f\cf6  HEAD@\{31\}: commit (merge): merging develop into master\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+\cf2 c3f928f\cf6  HEAD@\{31\}: commit (merge): merging develop into master\
+\cf2 6a1b52a\cf6  HEAD@\{32\}: checkout: moving from develop to master\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+\cf2 c3f928f\cf6  HEAD@\{31\}: commit (merge): merging develop into master\
+\cf2 6a1b52a\cf6  HEAD@\{32\}: checkout: moving from develop to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{33\}: checkout: moving from master to develop\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+\cf2 c3f928f\cf6  HEAD@\{31\}: commit (merge): merging develop into master\
+\cf2 6a1b52a\cf6  HEAD@\{32\}: checkout: moving from develop to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{33\}: checkout: moving from master to develop\
+\cf2 6a1b52a\cf6  HEAD@\{34\}: checkout: moving from master to master\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+\cf2 c3f928f\cf6  HEAD@\{31\}: commit (merge): merging develop into master\
+\cf2 6a1b52a\cf6  HEAD@\{32\}: checkout: moving from develop to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{33\}: checkout: moving from master to develop\
+\cf2 6a1b52a\cf6  HEAD@\{34\}: checkout: moving from master to master\
+\cf2 6a1b52a\cf6  HEAD@\{35\}: checkout: moving from feature2 to master\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+\cf2 c3f928f\cf6  HEAD@\{31\}: commit (merge): merging develop into master\
+\cf2 6a1b52a\cf6  HEAD@\{32\}: checkout: moving from develop to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{33\}: checkout: moving from master to develop\
+\cf2 6a1b52a\cf6  HEAD@\{34\}: checkout: moving from master to master\
+\cf2 6a1b52a\cf6  HEAD@\{35\}: checkout: moving from feature2 to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{36\}: merge develop: Fast-forward\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+\cf2 c3f928f\cf6  HEAD@\{31\}: commit (merge): merging develop into master\
+\cf2 6a1b52a\cf6  HEAD@\{32\}: checkout: moving from develop to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{33\}: checkout: moving from master to develop\
+\cf2 6a1b52a\cf6  HEAD@\{34\}: checkout: moving from master to master\
+\cf2 6a1b52a\cf6  HEAD@\{35\}: checkout: moving from feature2 to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{36\}: merge develop: Fast-forward\
+\cf2 20d8cdf\cf6  HEAD@\{37\}: checkout: moving from feature1 to feature2\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+\cf2 c3f928f\cf6  HEAD@\{31\}: commit (merge): merging develop into master\
+\cf2 6a1b52a\cf6  HEAD@\{32\}: checkout: moving from develop to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{33\}: checkout: moving from master to develop\
+\cf2 6a1b52a\cf6  HEAD@\{34\}: checkout: moving from master to master\
+\cf2 6a1b52a\cf6  HEAD@\{35\}: checkout: moving from feature2 to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{36\}: merge develop: Fast-forward\
+\cf2 20d8cdf\cf6  HEAD@\{37\}: checkout: moving from feature1 to feature2\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{38\}: merge develop: Fast-forward\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+\cf2 c3f928f\cf6  HEAD@\{31\}: commit (merge): merging develop into master\
+\cf2 6a1b52a\cf6  HEAD@\{32\}: checkout: moving from develop to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{33\}: checkout: moving from master to develop\
+\cf2 6a1b52a\cf6  HEAD@\{34\}: checkout: moving from master to master\
+\cf2 6a1b52a\cf6  HEAD@\{35\}: checkout: moving from feature2 to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{36\}: merge develop: Fast-forward\
+\cf2 20d8cdf\cf6  HEAD@\{37\}: checkout: moving from feature1 to feature2\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{38\}: merge develop: Fast-forward\
+\cf2 09bb27b\cf6  HEAD@\{39\}: checkout: moving from develop to feature1\
+:...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+\cf2 c3f928f\cf6  HEAD@\{31\}: commit (merge): merging develop into master\
+\cf2 6a1b52a\cf6  HEAD@\{32\}: checkout: moving from develop to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{33\}: checkout: moving from master to develop\
+\cf2 6a1b52a\cf6  HEAD@\{34\}: checkout: moving from master to master\
+\cf2 6a1b52a\cf6  HEAD@\{35\}: checkout: moving from feature2 to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{36\}: merge develop: Fast-forward\
+\cf2 20d8cdf\cf6  HEAD@\{37\}: checkout: moving from feature1 to feature2\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{38\}: merge develop: Fast-forward\
+\cf2 09bb27b\cf6  HEAD@\{39\}: checkout: moving from develop to feature1\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{40\}: commit (merge): commit merge of feature :...skipping...\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{0\}: merge develop: Fast-forward\
+\cf2 e255029\cf6  HEAD@\{1\}: checkout: moving from develop to master\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{2\}: rebase (finish): returning to refs/heads/develop\
+\cf2 0f811ee (
+\f1\b \cf3 HEAD -> \cf4 master
+\f0\b0 \cf2 , 
+\f1\b \cf5 origin/master
+\f0\b0 \cf2 , 
+\f1\b \cf4 develop
+\f0\b0 \cf2 )\cf6  HEAD@\{3\}: rebase (pick): conflict resolved in feature 4 before rebase\
+\cf2 2e652b2\cf6  HEAD@\{4\}: rebase (pick): changes to develop3\
+\cf2 2117860\cf6  HEAD@\{5\}: rebase (pick): new feature3\
+\cf2 e255029\cf6  HEAD@\{6\}: rebase (start): checkout master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{7\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{8\}: checkout: moving from feature4 to master\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{9\}: checkout: moving from develop to feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{10\}: merge feature4: Fast-forward\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{11\}: checkout: moving from feature4 to develop\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{12\}: rebase (continue) (finish): returning to refs/heads/feature4\
+\cf2 f73e9f5 (
+\f1\b \cf4 feature4
+\f0\b0 \cf2 )\cf6  HEAD@\{13\}: commit: conflict resolved in feature 4 before rebase\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{14\}: rebase (start): checkout develop\
+\cf2 50c871d\cf6  HEAD@\{15\}: commit: chenges to faeture4\
+\cf2 bc3f836\cf6  HEAD@\{16\}: checkout: moving from develop to feature4\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{17\}: merge feature3: Fast-forward\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{18\}: checkout: moving from feature3 to develop\
+\cf2 94904f8 (
+\f1\b \cf4 feature3
+\f0\b0 \cf2 )\cf6  HEAD@\{19\}: commit: changes to develop3\
+\cf2 b694624\cf6  HEAD@\{20\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{21\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{22\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{23\}: checkout: moving from feature4 to develop\
+\cf2 bc3f836\cf6  HEAD@\{24\}: commit: new feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{25\}: checkout: moving from develop to feature4\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{26\}: checkout: moving from feature3 to develop\
+\cf2 b694624\cf6  HEAD@\{27\}: commit: new feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{28\}: checkout: moving from develop to feature3\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{29\}: checkout: moving from master to develop\
+\cf2 e255029\cf6  HEAD@\{30\}: commit: merge conflict resolved\
+\cf2 c3f928f\cf6  HEAD@\{31\}: commit (merge): merging develop into master\
+\cf2 6a1b52a\cf6  HEAD@\{32\}: checkout: moving from develop to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{33\}: checkout: moving from master to develop\
+\cf2 6a1b52a\cf6  HEAD@\{34\}: checkout: moving from master to master\
+\cf2 6a1b52a\cf6  HEAD@\{35\}: checkout: moving from feature2 to master\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{36\}: merge develop: Fast-forward\
+\cf2 20d8cdf\cf6  HEAD@\{37\}: checkout: moving from feature1 to feature2\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{38\}: merge develop: Fast-forward\
+\cf2 09bb27b\cf6  HEAD@\{39\}: checkout: moving from develop to feature1\
+\cf2 c08d125 (
+\f1\b \cf4 feature2
+\f0\b0 \cf2 , 
+\f1\b \cf4 feature1
+\f0\b0 \cf2 )\cf6  HEAD@\{40\}: commit (merge): commit merge of feature 1\
+:}
