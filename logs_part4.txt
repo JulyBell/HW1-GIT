@@ -1,0 +1,14 @@
+35e710e (HEAD -> master, origin/master) HEAD@{0}: pull https://github.com/JulyBell/HW1-GIT: Fast-forward
+7aba44f HEAD@{1}: checkout: moving from develop to master
+52b3253 (origin/develop, develop) HEAD@{2}: pull https://github.com/JulyBell/HW1-GIT: Merge made by the 'recursive' strategy.
+43d6a7a HEAD@{3}: commit (merge): Conflicts are resolved for merging
+60585f9 HEAD@{4}: commit: changes to page.html from develop branch
+18d57e8 HEAD@{5}: checkout: moving from feature6 to develop
+78c7b8e (origin/feature6, feature6) HEAD@{6}: commit: changes to page.html from feature6
+18d57e8 HEAD@{7}: checkout: moving from develop to feature6
+18d57e8 HEAD@{8}: checkout: moving from feature6 to develop
+18d57e8 HEAD@{9}: checkout: moving from develop to feature6
+18d57e8 HEAD@{10}: checkout: moving from feature6 to develop
+18d57e8 HEAD@{11}: checkout: moving from develop to feature6
+18d57e8 HEAD@{12}: commit: add page.html
+7aba44f HEAD@{13}: checkout: moving from master to develop
